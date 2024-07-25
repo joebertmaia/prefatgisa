@@ -3,5 +3,4 @@ pandas
 datetime
 numpy
 matplotlib
-io
 openpyxl
