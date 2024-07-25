@@ -15,7 +15,14 @@ from openpyxl import reader,load_workbook,Workbook
 PAGE_TITLE = "App de Pré-Faturamento"
 PAGE_ICON = "https://cse.energisa.com.br/img/grupo_energisa.png"
 
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+st.set_page_config(
+    page_title=PAGE_TITLE,
+    page_icon=PAGE_ICON,
+    layout="wide",
+    menu_items={
+        'About': "Bugs ou sugestões, enviar um e-mail para joebert.maia@energisa.com.br"
+    }
+)
 
 st.title('Pré-faturamento')
 st.write("Esse webapp auxilia no envio das listas de unidades para manutenção do grupo A e grupo B.")
