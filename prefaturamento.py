@@ -27,7 +27,14 @@ st.markdown("<h1 style='text-align: center;'>Pré-faturamento</h1>", unsafe_allo
 st.markdown("<h5 style='text-align: center;'>Webapp para o processamento das unidades do grupo A ou grupo B que precisam ser enviadas para manutenção.</h1>", unsafe_allow_html=True)
 st.markdown("""<style>[aria-label="dialog"]{width: 90%;}</style>""", unsafe_allow_html=True)
 
-
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            .viewerBadge_container__r5tak {visibility: hidden;}
+            .st-emotion-cache-1p1m4ay {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 #st.title('Pré-faturamento')
 #st.write("Esse webapp auxilia no envio das listas de unidades para manutenção do grupo A e grupo B.")
