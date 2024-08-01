@@ -30,8 +30,9 @@ st.markdown("""<style>[aria-label="dialog"]{width: 90%;}</style>""", unsafe_allo
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
-            .viewerBadge_container__r5tak {visibility: hidden;}
+            .viewerBadge_container__r5tak styles_viewerBadge__CvC9N {visibility: hidden;}
             .st-emotion-cache-1p1m4ay {visibility: hidden;}
+            .st-emotion-cache-h4xjwg {visibility: hidden;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
